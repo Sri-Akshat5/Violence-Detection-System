@@ -1,0 +1,11 @@
+# Requirements file generated from Pipfile
+
+requests>=2.0  # The latest version of requests
+numpy>=1.0     # The latest version of numpy
+pyqt5>=5.0     # The latest version of PyQt5
+opencv-python-headless>=4.0  # The latest version of OpenCV without GUI
+
+# Python version specification
+# This is usually handled separately in the deployment environment, but you can note it here for reference
+# Python version: 3.12.5
+
