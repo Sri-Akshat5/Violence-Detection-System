@@ -25,7 +25,7 @@ if os.path.isfile(dotenv_file):
 SECRET_KEY = os.getenv('SECRET_KEY', 'fallback-secret-key')  # Provide a fallback if SECRET_KEY is not set
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://violence-detection-system-server-side.onrender.com]
 
 # Application definition
 INSTALLED_APPS = [
